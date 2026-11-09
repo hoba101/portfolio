@@ -1,11 +1,11 @@
 <div align="center">
 
-# Ehab — Portfolio
+# Miro (Ehab) — Portfolio
 
 **A neo-brutalist portfolio with a built-in content dashboard.**
 Next.js 16 · React 19 · Tailwind CSS v4 · TypeScript
 
-[Live site](#) · [Dashboard](#dashboard) · [Quick start](#quick-start)
+[Live site](https://portfolio-hoba101.vercel.app) · [Dashboard](#dashboard) · [Quick start](#quick-start)
 
 </div>
 
@@ -193,8 +193,8 @@ the portfolio and dashboard only.
 **Requirements:** Node.js 20.9+
 
 ```bash
-git clone https://github.com/hoba101/my-website.git
-cd my-website
+git clone https://github.com/hoba101/portfolio.git
+cd portfolio
 npm install
 
 cp .env.example .env.local   # set DASHBOARD_PASSWORD

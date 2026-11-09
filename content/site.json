@@ -1,11 +1,11 @@
 {
   "profile": {
-    "name": "Miro",
-    "handle": "Miro",
+    "name": "Miro (Ehab)",
+    "handle": "hoba101",
     "email": "aryxavi02@gmail.com",
     "role": "Creative Web Developer",
     "logoUrl": "",
-    "photoUrl": "",
+    "photoUrl": "/profile.png",
     "configured": true
   },
   "hero": {
@@ -16,7 +16,7 @@
       "modern",
       "accessible"
     ],
-    "subheadline": "Thoughtful interfaces, clean code, and a dashboard so you can keep everything up to date yourself.",
+    "subheadline": "Full-stack developer working with Next.js, React, TypeScript and Kotlin. I care about clean code, thoughtful interfaces, and shipping things that actually work.",
     "primaryCta": {
       "label": "See my work",
       "href": "#projects"
@@ -109,74 +109,89 @@
     },
     {
       "id": "skill-cfc48306",
-      "name": "photoshopt",
+      "name": "Photoshop",
       "icon": "pen",
       "accent": "pink",
       "rotation": 5
     },
     {
       "id": "skill-1a9cb3be",
-      "name": "illustrator",
+      "name": "Illustrator",
       "icon": "paintbrush",
       "accent": "highlight",
       "rotation": 0
+    },
+    {
+      "id": "skill-firebase",
+      "name": "Firebase",
+      "icon": "database",
+      "accent": "highlight",
+      "rotation": -2
+    },
+    {
+      "id": "skill-kotlin",
+      "name": "Kotlin",
+      "icon": "terminal",
+      "accent": "green",
+      "rotation": 3
     }
   ],
   "projects": [
     {
-      "id": "proj-bloom",
-      "title": "Flowers, trees and bushes reach their peak of full bloom",
-      "category": "Photography | Nature",
-      "imageUrl": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&q=80&w=600&h=400",
-      "accent": "pink",
-      "href": ""
-    },
-    {
-      "id": "proj-workspace",
-      "title": "Minimalist workspace design and aesthetics",
-      "category": "Interior | Design",
-      "imageUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=600&h=400",
-      "accent": "green",
-      "href": ""
-    },
-    {
-      "id": "proj-architecture",
-      "title": "Modern architectural structures in the city",
-      "category": "Architecture | Urban",
-      "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=600&h=400",
-      "accent": "blue",
-      "href": ""
-    },
-    {
-      "id": "proj-abstract",
-      "title": "Creative abstract digital art generation",
-      "category": "Art | Digital",
-      "imageUrl": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&q=80&w=600&h=400",
-      "accent": "highlight",
-      "href": ""
-    },
-    {
       "id": "proj-dental-platform",
-      "title": "Dental booking marketplace with a bilingual doctor and student provider system",
-      "category": "Full-stack | Healthcare",
-      "imageUrl": "https://images.unsplash.com/photo-1758205308179-4e00e0e4060b?auto=format&fit=crop&q=80&w=600&h=400",
+      "title": "Dantes — Dental Booking Marketplace",
+      "category": "Full-stack · Next.js · Express · PostgreSQL",
+      "imageUrl": "/projects/dantes.png",
       "accent": "blue",
       "href": "https://github.com/hoba101/dantes-management"
+    },
+    {
+      "id": "proj-nabta",
+      "title": "نبتة — Plant-Themed Study Tracker for Android",
+      "category": "Android · Kotlin · Jetpack Compose · Room",
+      "imageUrl": "/projects/nabta.png",
+      "accent": "green",
+      "href": "https://github.com/hoba101/reminder"
+    },
+    {
+      "id": "proj-open-canvas",
+      "title": "Open Canvas — Real-Time Infinite Whiteboard",
+      "category": "React · React Flow · Firebase · TypeScript",
+      "imageUrl": "/projects/open-canvas.png",
+      "accent": "pink",
+      "href": "https://open-canvas-phi.vercel.app"
+    },
+    {
+      "id": "proj-university-map",
+      "title": "Smart University Portal — Cairo University",
+      "category": "React · TypeScript · Tailwind · UI Prototype",
+      "imageUrl": "/projects/university-map.png",
+      "accent": "highlight",
+      "href": "https://github.com/hoba101/university-map"
+    },
+    {
+      "id": "proj-paper",
+      "title": "Paper — Infinite Sticky-Note Canvas",
+      "category": "Vanilla JS · Canvas · Firebase",
+      "imageUrl": "/projects/paper.png",
+      "accent": "pink",
+      "href": "https://hoba101.github.io/Paper/"
+    },
+    {
+      "id": "proj-physics-quiz",
+      "title": "Physics Quiz — Units & Dimensional Analysis",
+      "category": "HTML · CSS · JavaScript · Education",
+      "imageUrl": "/projects/physics-quiz.png",
+      "accent": "blue",
+      "href": "https://github.com/hoba101/physics-quiz"
     }
   ],
   "socials": [
     {
-      "id": "soc-github",
+      "id": "social-github",
       "platform": "github",
       "label": "GitHub",
       "href": "https://github.com/hoba101",
-      "active": true
-    },
-    {
-      "id": "soc-instagram",
-      "platform": "instagram",
-      "label": "Instagram",
-      "href": "https://www.instagram.com/mlro._.o/",
       "active": true
     }
   ]
